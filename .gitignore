@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules
+node_modules
+dist
+dist-ssr
+*.local
+
+# Python virtual environments
+.venv/
+py311_env/
+venv_*/
+__pycache__/
+**/*.pyc
+
+# Heavy training runs and temporary files in the module
+fractured_teeth_module/runs/
+fractured_teeth_module/protoc_*/
+fractured_teeth_module/output/
+fractured_teeth_module/comparative_results/
+**.ipynb_checkpoints/
+
+# Large model data and datasets
+Root Canal.v1i.yolov8/
+dataset/
+unused_assets/
+faster_rcnn_resnet50_v1_640x640_coco17_tpu-8/
+tf_models/
+tf_models_research/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Model weights
+*.pt
+*.onnx
+*.weights
+*.h5
+*.tflite
+*.pb
